@@ -9,11 +9,15 @@
 6. Backend: FastAPI.
 7. Interface: Streamlit.
 
+## Prerequisites:
+1. Gemini API key from: https://aistudio.google.com/
+
 ## Setup:
 1. `git clone https://github.com/RifqiAnshariR/rag-langchain.git`
 2. `cd rag-langchain`
 3. `py -3.13 -m venv .venv` and activate it `.venv\Scripts\activate`
 4. `pip install -r requirements.txt`
+5. Make .env file contains: GOOGLE_API_KEY.
 
 ## How to run:
 1. To run api: `python main.py`
